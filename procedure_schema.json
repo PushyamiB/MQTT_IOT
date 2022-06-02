@@ -1,0 +1,51 @@
+{
+    "Filename": "procedure_schema.json",
+    "Procedure": "alter",
+    "Server": "185.136.157.12",
+    "User": "mqttuser",
+    "Password": "@5TdXk-XzN?PRd$M",
+    "Database": "mqtt",
+    "Tablename": "datareadings_v2",
+    "Procedure_name": "dateTimeFiltering_v2",
+    "paramList": [
+        "FromDate",
+        "ToDate",
+        "macID",
+        "deviceId",
+        "farmid",
+        "Stand"
+    ],
+    "Attributes": [
+        {
+            "sql_name": "FromDate",
+            "sql_type": "datetime"
+        },
+        {
+            "sql_name": "ToDate",
+            "sql_type": "datetime"
+        },
+        {
+            "sql_name": "macID",
+            "sql_type": "varchar"
+        },
+        {
+            "sql_name": "deviceId",
+            "sql_type": "varchar"
+        },
+        {
+            "sql_name": "farmid",
+            "sql_type": "nvarchar"
+        },
+        {
+            "sql_name": "Stand",
+            "sql_type": "varchar"
+        }
+    ],
+    "AcceptableParams":[
+        "FromDate",
+        "ToDate",
+        "macID",
+        "deviceId",
+        "farmid",
+        "Stand"]
+}
